@@ -9,7 +9,7 @@
 			 * @param {String} file The json file path
 			 * @return {promise} deferred.promise
 			 */
-			/*get_cars : function(file){
+			get_cars : function(file){
 				var deferred = $q.defer();
 				$http.get(file).then(function(data) {
 					// Success
@@ -22,7 +22,7 @@
 					deferred.reject();
 				});
 				return deferred.promise;
-			}*/
+			}
 		}
 }
 ]);

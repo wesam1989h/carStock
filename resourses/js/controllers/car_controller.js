@@ -244,7 +244,7 @@
 	        var car_prices =  get_filter_value($scope.car_stocks, 'price');
 	        $scope.advanced_filters.car_price_groups_obj.car_price_groups = generate_group_price(car_prices, 4);
 	        /*
-			 car_service.get_cars('http://localhost/carStock/car_stock.json').then(function(data) {
+			 car_service.get_cars('car_stock.json').then(function(data) {
 				 	$scope.car_stocks = data;
 			        $scope.advanced_filters.car_colors_obj.car_colors = get_filter_value($scope.car_stocks, 'color');
 			        $scope.advanced_filters.car_types_obj.car_types =  get_filter_value($scope.car_stocks, 'type');
