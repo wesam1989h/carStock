@@ -1,0 +1,107 @@
+
+body>header{
+	padding: 2em 0;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 1.75em;
+    padding-bottom: 1.75em;
+    box-shadow: 0 0 0.5em rgba(59,72,79,.5);
+    border-bottom: 1px solid;
+    border-color: #5FB0E4;
+}
+/**
+* 
+*/
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+
+/**
+* Left Filters
+*/
+.behclick-panel  .list-group {
+  		margin-bottom: 0px;
+}
+.behclick-panel .list-group-item:first-child {
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+}
+.behclick-panel .list-group-item {
+	border-right:0px;
+	border-left:0px;
+}
+.behclick-panel .list-group-item:last-child{
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;
+}
+.behclick-panel .list-group-item {
+	padding: 5px;
+}
+.behclick-panel .panel-heading {
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom: 1px solid darkslategrey;
+}
+.behclick-panel .panel-heading:last-child{
+	
+}
+.behclick-panel {
+	border-radius: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 0px;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+	    margin-top: 15px;
+}
+.behclick-panel .radio, .checkbox {
+	margin: 0px;
+	padding-left: 10px;
+}
+.behclick-panel .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+	outline: none;
+}
+.behclick-panel .panel-body > .panel-heading{
+	padding:10px 10px;
+}
+.behclick-panel .panel-body {
+	padding: 0px;
+}
+ /* unvisited link */
+.behclick-panel a:link {
+    text-decoration:none;
+}
+
+/* visited link */
+.behclick-panel a:visited {
+    text-decoration:none;
+}
+
+/* mouse over link */
+.behclick-panel a:hover {
+    text-decoration:none;
+}
+
+/* selected link */
+.behclick-panel a:active {
+    text-decoration:none;
+}
