@@ -243,6 +243,8 @@
 	        $scope.advanced_filters.car_types_obj.car_types =  get_filter_value($scope.car_stocks, 'type');
 	        var car_prices =  get_filter_value($scope.car_stocks, 'price');
 	        $scope.advanced_filters.car_price_groups_obj.car_price_groups = generate_group_price(car_prices, 4);
+	        
+	        // This part has been replaced with the code above, because we couldn't read files from browsers like Chrome without using a web server
 	        /*
 			 car_service.get_cars('car_stock.json').then(function(data) {
 				 	$scope.car_stocks = data;
