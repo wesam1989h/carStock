@@ -1,6 +1,6 @@
 # carStock
 
-It is a small Angular app which allows to search for color, type and price in the provided JSON structure. 
+- It is a small Angular app which allows to search for color, type and price in the provided JSON structure. 
 { "carStock": 
 [{
 	"color": "red",
